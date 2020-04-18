@@ -1,7 +1,7 @@
 import os
 
 def Limpiar(Cadena):
-    CaracteresProhibidos = ['+', '-', ' ', '¿', '?', '¡', '!', '[', ']', '.', ',', ':', ';', '/', '\\']
+    CaracteresProhibidos = ['@', '+', '-', ' ', '¿', '?', '¡', '!', '[', ']', '.', ',', ':', ';', '/', '\\']
     Reemplazos = [
         ("á", "a"),
         ("é", "e"),
